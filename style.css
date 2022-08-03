@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --section-one-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #08c05e;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+  --font-spartan: 'League Spartan', sans-serif;
+  --font-work: 'Work Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 1440px;
+}
+
+#section-one {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  max-width: 50%;
+  padding-inline: 5px;
+  padding-top: 50px;
+  background: var(--section-one-bg-color);
+}
+
+.logo img {
+  width: 389px;
+  height: 94px;
+  margin-bottom: 92px;
+  margin-left: 4px;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 9px;
+  margin-left: 8px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-family: var(--font-work);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  color: var(--title-color);
+}
+
+.caption {
+  font-family: var(--font-spartan);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.description {
+  font-family: var(--font-spartan);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.form {
+  margin-left: 8px;
+}
+
+.form label {
+  font-family: var(--font-spartan);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: var(--form-color);
+}
+
+.content-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: visible;
+}
+
+.rectangle {
+  width: 5px;
+  height: 53px;
+  background: var(--title-color);
+  margin-top: 17px;
+}
+
+input {
+  width: 100%;
+  padding-block: 17px;
+  padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 17px;
+  border: none;
+
+  font-family: var(--font-work);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #6a6a6a;
+}
+
+button {
+  width: ;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-button-color);
+  padding: 14px;
+  margin-top: 17px;
+  magin-left: 1;
+}
+
+button svg {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
