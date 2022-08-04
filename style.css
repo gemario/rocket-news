@@ -136,6 +136,7 @@ body {
   height: 60px;
   border: 0;
   outline: none;
+  padding: 14px;
   background: var(--bg-button-color);
   color: var(--text-color);
   cursor: pointer;
@@ -152,6 +153,7 @@ body {
   align-items: center;
   gap: 5px;
   margin-top: 52px;
+  color: var(--bg-button-color);
 
   font-family: var(--font-spartan);
   font-style: normal;
@@ -176,4 +178,11 @@ body {
   width: 100vw;
   height: 100vh;
   max-width: 50%;
+}
+
+@media (max-width: 830px) {
+  .logo img {
+    width: 250px;
+    height: 54px;
+  }
 }
